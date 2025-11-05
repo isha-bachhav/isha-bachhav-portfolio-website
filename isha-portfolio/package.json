@@ -1,8 +1,11 @@
 {
-  "name": "code-portfolio-quest",
+  "name": "isha-bachhav-portfolio-website",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://isha-bachhav.github.io/isha-bachhav-portfolio-website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -15,6 +18,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.552.0",
     "path": "^0.12.7",
     "react": "^18.3.1",

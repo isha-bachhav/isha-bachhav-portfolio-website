@@ -6,6 +6,7 @@ import autoprefixer from "autoprefixer";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/isha-bachhav-portfolio-website/", // Important for GitHub Pages
   plugins: [react()],
   css: {
     postcss: {
